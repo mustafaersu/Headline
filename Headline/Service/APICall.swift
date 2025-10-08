@@ -15,7 +15,7 @@ enum apiError:Error{
 
 class APICall{
     static let shared = APICall()
-    let apiKey = "7c2381961134410b9f73be0fb8a8a6a3"
+    let apiKey = "ADD_YOUR_NEWSAPIKEY_TO_USE_HEADLINE"
     let baseURL = "https://newsapi.org/v2"
     
     func getNewsWithCategory(Category:String,completion: @escaping (Result<ResponseModel,apiError>) -> Void){
